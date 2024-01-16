@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd Store</title>
+    
+    <!--Normalize-->
+    <link rel="stylesheet" href="css/normalize.css">
+    
+    <!--Fuente-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <!--Estilos css-->
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+    
+    <header class="header">
+
+        <a href="index.html">
+            <img class="header__logo" src="img/logo.png" alt="Logotipo">
+        </a>
+
+    </header>
+
+    <nav class="navegacion">
+        <a class="navegacion__enlace navegacion__enlace--activo" href="index.html">tienda</a>
+        <a class="navegacion__enlace" href="nosotros.html">nosotros</a>
+    </nav>
+
+    <main class="contenedor">
+        <h1>React JS</h1>
+
+        <div class="camisa">
+            <img class="camisa__imagen" src="img/3.jpg" alt="Imagen del Producto">
+
+            <div class="camisa__contenido">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut auctor commodo risus, sagittis cursus nibh egestas id. Cras posuere vehicula scelerisque. Sed blandit posuere sollicitudin. Pellentesque hendrerit tellus ullamcorper elit rutrum posuere. Suspendisse hendrerit a justo eget maximus. Fusce in tincidunt purus. Nam nulla neque, sodales at lacus in, egestas porttitor augue. Sed venenatis facilisis sollicitudin. Aenean ut sem felis. Proin turpis orci, dignissim nec ligula in, faucibus bibendum eros. Quisque et ex id felis blandit fringilla eu ac elit. Fusce venenatis nisl at ultrices scelerisque. Nunc faucibus interdum lectus, sed sagittis sapien mollis nec. Morbi consequat risus ut dui vulputate scelerisque. Ut velit sem, ullamcorper vel pulvinar vitae, bibendum ut odio.
+                </p>
+
+                <form class="formulario">
+                    
+                    <select class="formulario__campo">
+                        <option disabled selected>-- Selecionar Talla --</option>
+                        <option>Small</option>
+                        <option>Medium</option>
+                        <option>Large</option>
+                    </select>
+
+                    <input class="formulario__campo" type="number" placeholder="Cantidad" min="1" step="10">
+
+                    <input class="formulario__submit" type="submit" value="Agregar al Carrito">
+
+                </form>
+
+            </div>
+        </div>
+
+    </main>
+
+
+
+    <footer class="footer">
+        <p class="footer__texto">Front End Store - Todos los derechos reservados 2023</p>
+    </footer>
+</body>
+</html>
